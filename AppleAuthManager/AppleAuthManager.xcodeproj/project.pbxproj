@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900BAA73241FDFEE0027BFEA /* AppleAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 900BAA6F241FDFEE0027BFEA /* AppleAuthManager.m */; };
+		900BAA74241FDFEE0027BFEA /* AppleAuthSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 900BAA70241FDFEE0027BFEA /* AppleAuthSerializer.m */; };
+		900BAA75241FDFEE0027BFEA /* PersonNameComponentsFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 900BAA72241FDFEE0027BFEA /* PersonNameComponentsFormatting.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		900BAA65241FDF4D0027BFEA /* AppleAuthManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleAuthManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		900BAA68241FDF4D0027BFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900BAA6E241FDFEE0027BFEA /* AppleAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleAuthManager.h; path = ../../AppleAuth/IOS/ObjC/AppleAuthManager.h; sourceTree = "<group>"; };
+		900BAA6F241FDFEE0027BFEA /* AppleAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppleAuthManager.m; path = ../../AppleAuth/IOS/ObjC/AppleAuthManager.m; sourceTree = "<group>"; };
+		900BAA70241FDFEE0027BFEA /* AppleAuthSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppleAuthSerializer.m; path = ../../AppleAuth/IOS/ObjC/AppleAuthSerializer.m; sourceTree = "<group>"; };
+		900BAA71241FDFEE0027BFEA /* AppleAuthSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleAuthSerializer.h; path = ../../AppleAuth/IOS/ObjC/AppleAuthSerializer.h; sourceTree = "<group>"; };
+		900BAA72241FDFEE0027BFEA /* PersonNameComponentsFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonNameComponentsFormatting.m; path = ../../AppleAuth/IOS/ObjC/PersonNameComponentsFormatting.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900BAA62241FDF4D0027BFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900BAA5C241FDF4D0027BFEA = {
+			isa = PBXGroup;
+			children = (
+				900BAA67241FDF4D0027BFEA /* AppleAuthManager */,
+				900BAA66241FDF4D0027BFEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		900BAA66241FDF4D0027BFEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900BAA65241FDF4D0027BFEA /* AppleAuthManager.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900BAA67241FDF4D0027BFEA /* AppleAuthManager */ = {
+			isa = PBXGroup;
+			children = (
+				900BAA6E241FDFEE0027BFEA /* AppleAuthManager.h */,
+				900BAA6F241FDFEE0027BFEA /* AppleAuthManager.m */,
+				900BAA71241FDFEE0027BFEA /* AppleAuthSerializer.h */,
+				900BAA70241FDFEE0027BFEA /* AppleAuthSerializer.m */,
+				900BAA72241FDFEE0027BFEA /* PersonNameComponentsFormatting.m */,
+				900BAA68241FDF4D0027BFEA /* Info.plist */,
+			);
+			path = AppleAuthManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		900BAA64241FDF4D0027BFEA /* AppleAuthManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900BAA6B241FDF4D0027BFEA /* Build configuration list for PBXNativeTarget "AppleAuthManager" */;
+			buildPhases = (
+				900BAA61241FDF4D0027BFEA /* Sources */,
+				900BAA62241FDF4D0027BFEA /* Frameworks */,
+				900BAA63241FDF4D0027BFEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleAuthManager;
+			productName = AppleAuthManager;
+			productReference = 900BAA65241FDF4D0027BFEA /* AppleAuthManager.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900BAA5D241FDF4D0027BFEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Daniel Lupiañez Casares";
+				TargetAttributes = {
+					900BAA64241FDF4D0027BFEA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 900BAA60241FDF4D0027BFEA /* Build configuration list for PBXProject "AppleAuthManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 900BAA5C241FDF4D0027BFEA;
+			productRefGroup = 900BAA66241FDF4D0027BFEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900BAA64241FDF4D0027BFEA /* AppleAuthManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900BAA63241FDF4D0027BFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900BAA61241FDF4D0027BFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900BAA75241FDFEE0027BFEA /* PersonNameComponentsFormatting.m in Sources */,
+				900BAA74241FDFEE0027BFEA /* AppleAuthSerializer.m in Sources */,
+				900BAA73241FDFEE0027BFEA /* AppleAuthManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		900BAA69241FDF4D0027BFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		900BAA6A241FDF4D0027BFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		900BAA6C241FDF4D0027BFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HMPT8TH7MM;
+				INFOPLIST_FILE = AppleAuthManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lupidan.AppleAuthManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		900BAA6D241FDF4D0027BFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HMPT8TH7MM;
+				INFOPLIST_FILE = AppleAuthManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lupidan.AppleAuthManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900BAA60241FDF4D0027BFEA /* Build configuration list for PBXProject "AppleAuthManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900BAA69241FDF4D0027BFEA /* Debug */,
+				900BAA6A241FDF4D0027BFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900BAA6B241FDF4D0027BFEA /* Build configuration list for PBXNativeTarget "AppleAuthManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900BAA6C241FDF4D0027BFEA /* Debug */,
+				900BAA6D241FDF4D0027BFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 900BAA5D241FDF4D0027BFEA /* Project object */;
+}
